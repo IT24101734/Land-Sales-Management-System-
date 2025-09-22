@@ -1,0 +1,86 @@
+# Land Sales Management System - .gitignore
+
+# Database Configuration (IMPORTANT: Never commit database credentials)
+connect.php
+config.php
+database.php
+
+# Environment Files
+.env
+.env.local
+.env.production
+.env.staging
+
+# Uploaded Files and User Content (Contains user uploaded images)
+lands/
+uploads/
+images/uploads/
+user_uploads/
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Logs
+*.log
+logs/
+error.log
+access.log
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Editor and IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# PHP Specific
+vendor/
+composer.lock
+.phpunit.result.cache
+
+# Cache Files
+cache/
+*.cache
+
+# Session Files
+sessions/
+tmp/sessions/
+
+# Backup Files
+*.bak
+*.backup
+*.sql
+
+# Development Tools
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Generated Files
+.DS_Store?
+ehthumbs.db
+Icon?
+
+# Security Files
+*.pem
+*.key
+private/
+secrets/
+
+# Local Development
+local_config.php
+dev_config.php
+test_config.php
