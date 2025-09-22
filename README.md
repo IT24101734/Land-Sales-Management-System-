@@ -1,3 +1,4 @@
+
 # 🏡 Dream Property Sales - Land Sales Management System
 
 A comprehensive web-based property sales management system built with PHP and MySQL. This platform enables users to browse, list, and manage property sales with an integrated payment system, specifically designed for the Sri Lankan real estate market.
@@ -234,8 +235,6 @@ For support and queries:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
 
 
 
